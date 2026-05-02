@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RE:DEFINE | Portfolio</title>
+  <meta name="description" content="RE:DEFINE portfolio for design, video editing, web development, hosting and human-centred digital experiences." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="progress" id="progress"></div>
+
+  <header class="site-header">
+    <nav class="nav-shell glass">
+      <a class="brand" href="#home" aria-label="RE:DEFINE home">
+        <span class="brand-mark">RE:</span><span>DEFINE</span>
+      </a>
+      <button class="menu-toggle" aria-label="Open menu">Menu</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#videos">Videos</a>
+        <a href="#credentials">Credentials</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section-pad">
+      <div class="hero-bg" aria-hidden="true">
+        <img src="assets/hero/slide1.jpg" alt="" class="hero-slide active">
+        <img src="assets/hero/slide2.jpg" alt="" class="hero-slide">
+        <img src="assets/hero/slide3.jpg" alt="" class="hero-slide">
+      </div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Portfolio project • design • video • web</p>
+          <h1>Human-centric design for a world where AI feels invisible.</h1>
+          <p class="lead">RE:DEFINE blends video editing, website development, hosting and design systems into sleek digital experiences that feel fast, modern and natural.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#portfolio">View work</a>
+            <a class="btn ghost" href="#contact">Contact me</a>
+          </div>
+        </div>
+        <div class="hero-card glass reveal delay-1">
+          <p class="mini-title">Drag & drop ready</p>
+          <h2>Replace assets, refresh, deploy.</h2>
+          <p>Hero slides, social posts, website previews, print mockups and video are already wired into the site.</p>
+          <div class="stat-grid">
+            <span><b>8+</b> years design</span>
+            <span><b>BA</b> graphic design</span>
+            <span><b>Web</b> development</span>
+            <span><b>Video</b> editing</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-pad soft-section">
+      <div class="container two-col">
+        <div class="reveal">
+          <p class="eyebrow">About RE:DEFINE</p>
+          <h2>Design, development and motion with a human-first edge.</h2>
+        </div>
+        <div class="glass panel reveal delay-1">
+          <p>RE:DEFINE is a modern portfolio brand focused primarily on video editing, website development and hosting. The work is built around clarity, speed and visual systems that help people understand a message quickly.</p>
+          <p>With 8 years of design experience, the brand combines campaign design, social content, web interfaces and visual storytelling into client-ready digital experiences.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section-pad">
+      <div class="container center reveal">
+        <p class="eyebrow">Services</p>
+        <h2>Built for fast scanning and fast decisions.</h2>
+        <p class="section-lead">The buttons below are structured so viewers can get to the work type they care about immediately.</p>
+      </div>
+      <div class="container service-grid">
+        <article class="service-card glass reveal"><h3>Social media posts</h3><p>Static posts, carousel grids, launch visuals and campaign artwork.</p><a href="#portfolio" data-filter-link="social">See posts</a></article>
+        <article class="service-card glass reveal delay-1"><h3>Social media videos</h3><p>Short-form edits, reels, TikToks, story cuts and punchy campaign video.</p><a href="#videos">See videos</a></article>
+        <article class="service-card glass reveal delay-2"><h3>Social media banners</h3><p>Brand-aligned banners, platform headers and campaign graphics.</p><a href="#portfolio" data-filter-link="social">See banners</a></article>
+        <article class="service-card glass reveal"><h3>Website development</h3><p>Modern portfolio, business and campaign websites with hosting support.</p><a href="#portfolio" data-filter-link="web">See websites</a></article>
+        <article class="service-card glass reveal delay-1"><h3>Billboards</h3><p>Large-format designs built for distance, visibility and high-impact messaging.</p><a href="#portfolio" data-filter-link="print">See print</a></article>
+        <article class="service-card glass reveal delay-2"><h3>Brand systems</h3><p>Identity, tone, layouts and scalable design direction for digital campaigns.</p><a href="#portfolio">Explore work</a></article>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section-pad soft-section">
+      <div class="container portfolio-head reveal">
+        <div>
+          <p class="eyebrow">Portfolio</p>
+          <h2>Quick-view work library.</h2>
+        </div>
+        <div class="filters glass" role="tablist">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="social">Social</button>
+          <button class="filter" data-filter="web">Web</button>
+          <button class="filter" data-filter="print">Print</button>
+        </div>
+      </div>
+      <div class="container portfolio-grid">
+        <figure class="work-card reveal" data-category="social"><img src="assets/social/post1.jpg" alt="Social media post mockup"><figcaption>Social post mockup</figcaption></figure>
+        <figure class="work-card reveal" data-category="social"><img src="assets/social/post2.jpg" alt="Social media post mockup"><figcaption>Campaign social visual</figcaption></figure>
+        <figure class="work-card reveal" data-category="social"><img src="assets/social/post3.jpg" alt="Social media banner mockup"><figcaption>Social banner</figcaption></figure>
+        <figure class="work-card reveal" data-category="web"><img src="assets/web/igc-home.png" alt="IGC Agency website screenshot"><figcaption>Website screenshot</figcaption></figure>
+        <figure class="work-card reveal" data-category="web"><img src="assets/web/site1.jpg" alt="Website preview placeholder"><figcaption>Website preview slot</figcaption></figure>
+        <figure class="work-card reveal" data-category="web"><img src="assets/web/site2.jpg" alt="Website preview placeholder"><figcaption>UX / UI slot</figcaption></figure>
+        <figure class="work-card reveal" data-category="print"><img src="assets/print/print1.jpg" alt="Billboard mockup placeholder"><figcaption>Billboard mockup</figcaption></figure>
+        <figure class="work-card reveal" data-category="print"><img src="assets/print/print2.jpg" alt="Print campaign placeholder"><figcaption>Print campaign</figcaption></figure>
+      </div>
+      <div class="container download-row reveal">
+        <a class="btn ghost" href="assets/web/igc-home.png" download>Download web screenshot</a>
+        <a class="btn ghost" href="assets/accreditation/portfolio.pdf" target="_blank">Open full portfolio PDF</a>
+      </div>
+    </section>
+
+    <section id="videos" class="section-pad">
+      <div class="container two-col align-start">
+        <div class="reveal">
+          <p class="eyebrow">Video showcase</p>
+          <h2>Motion work, short-form content and campaign cuts.</h2>
+          <p class="section-lead">Local video is included for reliable hosting. TikTok and Facebook links open externally so the site does not break if embeds are blocked.</p>
+          <div class="link-stack">
+            <a href="https://vm.tiktok.com/ZGdRy8RTu/" target="_blank" rel="noopener">TikTok 01</a>
+            <a href="https://vm.tiktok.com/ZGdRyLDVf/" target="_blank" rel="noopener">TikTok 02</a>
+            <a href="https://vm.tiktok.com/ZGdRUcqvD/" target="_blank" rel="noopener">TikTok 03</a>
+            <a href="https://vm.tiktok.com/ZGdRUb84r/" target="_blank" rel="noopener">TikTok 04</a>
+            <a href="https://vm.tiktok.com/ZGdRUGG1X/" target="_blank" rel="noopener">TikTok 05</a>
+            <a href="https://www.facebook.com/share/r/12DxyXFXANh/" target="_blank" rel="noopener">Facebook reel</a>
+          </div>
+        </div>
+        <div class="video-shell glass reveal delay-1">
+          <video src="assets/videos/showreel.mp4" controls playsinline preload="metadata"></video>
+        </div>
+      </div>
+    </section>
+
+    <section id="credentials" class="section-pad soft-section">
+      <div class="container portfolio-head reveal">
+        <div>
+          <p class="eyebrow">Credentials</p>
+          <h2>Qualified design practice.</h2>
+          <p class="section-lead">Degree and portfolio documentation are included as PDFs for client review and handoff.</p>
+        </div>
+      </div>
+      <div class="container credential-grid">
+        <article class="credential-card glass reveal">
+          <img src="assets/accreditation/degree-preview.jpg" alt="Degree preview placeholder">
+          <div><h3>BA Graphic Design</h3><p>Vega / The Independent Institute of Education. Open or download the degree PDF.</p><a class="btn primary" href="assets/accreditation/degree.pdf" target="_blank">Open degree PDF</a></div>
+        </article>
+        <article class="credential-card glass reveal delay-1">
+          <div><h3>Portfolio PDF</h3><p>Full portfolio document included for review, handoff and supporting design history.</p><a class="btn ghost" href="assets/accreditation/portfolio.pdf" target="_blank">Open portfolio PDF</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section-pad">
+      <div class="container contact-card glass reveal">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Ready to shape the next project?</h2>
+          <p>Kirstin Mostert is the client liaison and manager.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="btn primary" href="tel:+27645318498">Call Kirstin: +27 64 531 8498</a>
+          <a class="btn ghost" href="mailto:hello@redefine.local">Email RE:DEFINE</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <p>© 2026 RE:DEFINE. All rights of design reserved to ChrystalStudioDesigns and RE:DEFINE.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
